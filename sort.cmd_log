@@ -1,0 +1,2 @@
+xst -ise "D:/QuickSort/QuickSort.ise" -intstyle ise -ifn sort.xst -ofn sort.syr
+xst -ise "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/QuickSort.ise" -intstyle ise -ifn sort.xst -ofn sort.syr

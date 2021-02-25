@@ -1,0 +1,5 @@
+vhdl work "quick3.vhd"
+vhdl work "quick2.vhd"
+vhdl work "quick1.vhd"
+vhdl work "sort.vhd"
+vhdl work "quick_test.vhd"

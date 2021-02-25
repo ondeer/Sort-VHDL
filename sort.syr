@@ -1,0 +1,512 @@
+Release 9.2i - xst J.36
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to ./xst/projnav.tmp
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Parameter xsthdpdir set to ./xst
+CPU : 0.00 / 0.07 s | Elapsed : 0.00 / 0.00 s
+ 
+--> Reading design: sort.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+     9.1) Device utilization summary
+     9.2) Partition Resource Summary
+     9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "sort.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "sort"
+Output Format                      : NGC
+Target Device                      : xc3s100e-5-vq100
+
+---- Source Options
+Top Module Name                    : sort
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : lut
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : YES
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : YES
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 500
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Library Search Order               : sort.lso
+Keep Hierarchy                     : NO
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/sort is now defined in a different file.  It was defined in "D:/QuickSort/sort.vhd", and is now defined in "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd".
+WARNING:HDLParsers:3607 - Unit work/sort/quick is now defined in a different file.  It was defined in "D:/QuickSort/sort.vhd", and is now defined in "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd".
+WARNING:HDLParsers:3607 - Unit work/quick1 is now defined in a different file.  It was defined in "D:/QuickSort/quick1.vhd", and is now defined in "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd".
+WARNING:HDLParsers:3607 - Unit work/quick1/level1 is now defined in a different file.  It was defined in "D:/QuickSort/quick1.vhd", and is now defined in "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd".
+WARNING:HDLParsers:3607 - Unit work/quick2 is now defined in a different file.  It was defined in "D:/QuickSort/quick2.vhd", and is now defined in "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd".
+WARNING:HDLParsers:3607 - Unit work/quick2/level2 is now defined in a different file.  It was defined in "D:/QuickSort/quick2.vhd", and is now defined in "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd".
+WARNING:HDLParsers:3607 - Unit work/quick3 is now defined in a different file.  It was defined in "D:/QuickSort/quick3.vhd", and is now defined in "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd".
+WARNING:HDLParsers:3607 - Unit work/quick3/level3 is now defined in a different file.  It was defined in "D:/QuickSort/quick3.vhd", and is now defined in "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd".
+Compiling vhdl file "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd" in Library work.
+Entity <quick1> compiled.
+Entity <quick1> (Architecture <level1>) compiled.
+Compiling vhdl file "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd" in Library work.
+Entity <quick2> compiled.
+Entity <quick2> (Architecture <level2>) compiled.
+Compiling vhdl file "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd" in Library work.
+Entity <quick3> compiled.
+Entity <quick3> (Architecture <level3>) compiled.
+Compiling vhdl file "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd" in Library work.
+Architecture quick of Entity sort is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <sort> in library <work> (architecture <quick>).
+
+Analyzing hierarchy for entity <quick1> in library <work> (architecture <level1>).
+
+Analyzing hierarchy for entity <quick2> in library <work> (architecture <level2>).
+
+Analyzing hierarchy for entity <quick3> in library <work> (architecture <level3>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <sort> in library <work> (Architecture <quick>).
+Entity <sort> analyzed. Unit <sort> generated.
+
+Analyzing Entity <quick1> in library <work> (Architecture <level1>).
+Entity <quick1> analyzed. Unit <quick1> generated.
+
+Analyzing Entity <quick2> in library <work> (Architecture <level2>).
+Entity <quick2> analyzed. Unit <quick2> generated.
+
+Analyzing Entity <quick3> in library <work> (Architecture <level3>).
+Entity <quick3> analyzed. Unit <quick3> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <quick1>.
+    Related source file is "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd".
+WARNING:Xst:737 - Found 8-bit latch for signal <out1_2>.
+WARNING:Xst:737 - Found 8-bit latch for signal <out1_5>.
+    Found 8-bit comparator greatequal for signal <mux0000$cmp_ge0000> created at line 44.
+    Found 8-bit comparator lessequal for signal <mux0000$cmp_le0000> created at line 44.
+    Found 8-bit comparator greatequal for signal <out1_1$cmp_ge0000> created at line 20.
+    Found 8-bit comparator greatequal for signal <out1_1$cmp_ge0001> created at line 23.
+    Found 8-bit comparator lessequal for signal <out1_1$cmp_le0000> created at line 20.
+    Found 8-bit comparator lessequal for signal <out1_1$cmp_le0001> created at line 23.
+    Found 8-bit comparator greatequal for signal <out1_2$cmp_ge0000> created at line 46.
+    Found 8-bit comparator lessequal for signal <out1_2$cmp_le0000> created at line 46.
+    Summary:
+	inferred   8 Comparator(s).
+Unit <quick1> synthesized.
+
+
+Synthesizing Unit <quick2>.
+    Related source file is "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd".
+    Found 8-bit comparator lessequal for signal <out2_1$cmp_le0000> created at line 19.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <quick2> synthesized.
+
+
+Synthesizing Unit <quick3>.
+    Related source file is "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd".
+    Found 8-bit comparator lessequal for signal <flag$cmp_le0000> created at line 24.
+    Found 8-bit comparator greatequal for signal <out3_2$cmp_ge0000> created at line 49.
+    Found 8-bit comparator lessequal for signal <out3_2$cmp_le0000> created at line 45.
+    Found 8-bit comparator lessequal for signal <out3_2$cmp_le0001> created at line 32.
+    Summary:
+	inferred   4 Comparator(s).
+Unit <quick3> synthesized.
+
+
+Synthesizing Unit <sort>.
+    Related source file is "D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd".
+Unit <sort> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 2
+ 8-bit latch                                           : 2
+# Comparators                                          : 14
+ 8-bit comparator greatequal                           : 5
+ 8-bit comparator lessequal                            : 9
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Loading device for application Rf_Device from file '3s100e.nph' in environment D:\Programlar\Xilinx.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Latches                                              : 2
+ 8-bit latch                                           : 2
+# Comparators                                          : 14
+ 8-bit comparator greatequal                           : 5
+ 8-bit comparator lessequal                            : 9
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <sort> ...
+
+Optimizing unit <quick3> ...
+
+Optimizing unit <quick1> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block sort, actual ratio is 19.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                          Partition Report                             *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : sort.ngr
+Top Level Output File Name         : sort
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : NO
+
+Design Statistics
+# IOs                              : 80
+
+Cell Usage :
+# BELS                             : 458
+#      LUT2                        : 103
+#      LUT3                        : 104
+#      LUT4                        : 98
+#      MUXCY                       : 112
+#      MUXF5                       : 40
+#      VCC                         : 1
+# FlipFlops/Latches                : 16
+#      LDCPE                       : 16
+# IO Buffers                       : 80
+#      IBUF                        : 40
+#      OBUF                        : 40
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s100evq100-5 
+
+ Number of Slices:                     161  out of    960    16%  
+ Number of Slice Flip Flops:            16  out of   1920     0%  
+ Number of 4 input LUTs:               305  out of   1920    15%  
+ Number of IOs:                         80
+ Number of bonded IOBs:                 80  out of     66   121% (*) 
+
+WARNING:Xst:1336 -  (*) More than 100% of Device resources are used
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------+------------------------+-------+
+Clock Signal                               | Clock buffer(FF name)  | Load  |
+-------------------------------------------+------------------------+-------+
+lev1/out1_2_not0003(lev1/out1_2_not00031:O)| NONE(*)(lev1/out1_5_1) | 16    |
+-------------------------------------------+------------------------+-------+
+(*) This 1 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-------------------------------------------------+------------------------+-------+
+Control Signal                                   | Buffer(FF name)        | Load  |
+-------------------------------------------------+------------------------+-------+
+lev1/out1_5_1__and0000(lev1/out1_5_1__and00001:O)| NONE(lev1/out1_5_1)    | 1     |
+lev1/out1_5_1__and0001(lev1/out1_5_1__and00011:O)| NONE(lev1/out1_5_1)    | 1     |
+lev1/out1_5_3__and0000(lev1/out1_5_3__and00001:O)| NONE(lev1/out1_5_3)    | 1     |
+lev1/out1_5_3__and0001(lev1/out1_5_3__and00011:O)| NONE(lev1/out1_5_3)    | 1     |
+lev1/out1_2_3__and0000(lev1/out1_2_3__and00001:O)| NONE(lev1/out1_2_3)    | 1     |
+lev1/out1_2_3__and0001(lev1/out1_2_3__and00011:O)| NONE(lev1/out1_2_3)    | 1     |
+lev1/out1_5_2__and0000(lev1/out1_5_2__and00001:O)| NONE(lev1/out1_5_2)    | 1     |
+lev1/out1_5_2__and0001(lev1/out1_5_2__and00011:O)| NONE(lev1/out1_5_2)    | 1     |
+lev1/out1_2_5__and0000(lev1/out1_2_5__and00001:O)| NONE(lev1/out1_2_5)    | 1     |
+lev1/out1_2_5__and0001(lev1/out1_2_5__and00011:O)| NONE(lev1/out1_2_5)    | 1     |
+lev1/out1_5_4__and0000(lev1/out1_5_4__and00001:O)| NONE(lev1/out1_5_4)    | 1     |
+lev1/out1_5_4__and0001(lev1/out1_5_4__and00011:O)| NONE(lev1/out1_5_4)    | 1     |
+lev1/out1_5_6__and0000(lev1/out1_5_6__and00001:O)| NONE(lev1/out1_5_6)    | 1     |
+lev1/out1_5_6__and0001(lev1/out1_5_6__and00011:O)| NONE(lev1/out1_5_6)    | 1     |
+lev1/out1_5_7__and0000(lev1/out1_5_7__and00001:O)| NONE(lev1/out1_5_7)    | 1     |
+lev1/out1_5_7__and0001(lev1/out1_5_7__and00011:O)| NONE(lev1/out1_5_7)    | 1     |
+lev1/out1_2_7__and0000(lev1/out1_2_7__and00001:O)| NONE(lev1/out1_2_7)    | 1     |
+lev1/out1_2_7__and0001(lev1/out1_2_7__and00011:O)| NONE(lev1/out1_2_7)    | 1     |
+lev1/out1_5_5__and0000(lev1/out1_5_5__and00001:O)| NONE(lev1/out1_5_5)    | 1     |
+lev1/out1_5_5__and0001(lev1/out1_5_5__and00011:O)| NONE(lev1/out1_5_5)    | 1     |
+lev1/out1_2_2__and0000(lev1/out1_2_2__and00001:O)| NONE(lev1/out1_2_2)    | 1     |
+lev1/out1_2_2__and0001(lev1/out1_2_2__and00011:O)| NONE(lev1/out1_2_2)    | 1     |
+lev1/out1_2_6__and0000(lev1/out1_2_6__and00001:O)| NONE(lev1/out1_2_6)    | 1     |
+lev1/out1_2_6__and0001(lev1/out1_2_6__and00011:O)| NONE(lev1/out1_2_6)    | 1     |
+lev1/out1_5_0__and0000(lev1/out1_5_0__and00001:O)| NONE(lev1/out1_5_0)    | 1     |
+lev1/out1_5_0__and0001(lev1/out1_5_0__and00011:O)| NONE(lev1/out1_5_0)    | 1     |
+lev1/out1_2_0__and0000(lev1/out1_2_0__and00001:O)| NONE(lev1/out1_2_0)    | 1     |
+lev1/out1_2_0__and0001(lev1/out1_2_0__and00011:O)| NONE(lev1/out1_2_0)    | 1     |
+lev1/out1_2_4__and0000(lev1/out1_2_4__and00001:O)| NONE(lev1/out1_2_4)    | 1     |
+lev1/out1_2_4__and0001(lev1/out1_2_4__and00011:O)| NONE(lev1/out1_2_4)    | 1     |
+lev1/out1_2_1__and0000(lev1/out1_2_1__and00001:O)| NONE(lev1/out1_2_1)    | 1     |
+lev1/out1_2_1__and0001(lev1/out1_2_1__and00011:O)| NONE(lev1/out1_2_1)    | 1     |
+-------------------------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -5
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: 10.767ns
+   Maximum output required time after clock: 14.005ns
+   Maximum combinational path delay: 20.264ns
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'lev1/out1_2_not0003'
+  Total number of paths / destination ports: 6392 / 32
+-------------------------------------------------------------------------
+Offset:              10.767ns (Levels of Logic = 15)
+  Source:            in3<0> (PAD)
+  Destination:       lev1/out1_2_7 (LATCH)
+  Destination Clock: lev1/out1_2_not0003 falling
+
+  Data Path: in3<0> to lev1/out1_2_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.106   0.849  in3_0_IBUF (in3_0_IBUF)
+     LUT2:I0->O            1   0.612   0.000  lev1/Mcompar_mux0000_cmp_le0000_lut<0> (lev1/N36)
+     MUXCY:S->O            1   0.404   0.000  lev1/Mcompar_mux0000_cmp_le0000_cy<0> (lev1/Mcompar_mux0000_cmp_le0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  lev1/Mcompar_mux0000_cmp_le0000_cy<1> (lev1/Mcompar_mux0000_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  lev1/Mcompar_mux0000_cmp_le0000_cy<2> (lev1/Mcompar_mux0000_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  lev1/Mcompar_mux0000_cmp_le0000_cy<3> (lev1/Mcompar_mux0000_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  lev1/Mcompar_mux0000_cmp_le0000_cy<4> (lev1/Mcompar_mux0000_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  lev1/Mcompar_mux0000_cmp_le0000_cy<5> (lev1/Mcompar_mux0000_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  lev1/Mcompar_mux0000_cmp_le0000_cy<6> (lev1/Mcompar_mux0000_cmp_le0000_cy<6>)
+     MUXCY:CI->O           3   0.399   0.603  lev1/Mcompar_mux0000_cmp_le0000_cy<7> (lev1/mux0000_cmp_le0000)
+     LUT2:I0->O           25   0.612   1.140  lev1/mux0000_and00001 (lev1/mux0000_and0000)
+     LUT4:I1->O            9   0.612   0.766  lev1/out1_5_mux0004<0>21 (lev1/N91)
+     LUT2:I1->O            8   0.612   0.795  lev1/out1_2_mux0004<0>11 (lev1/N0)
+     LUT4:I0->O            3   0.612   0.454  lev1/out1_2_mux0004<7>_SW0 (N154)
+     LUT4:I3->O            1   0.612   0.000  lev1/out1_2_mux0004<7> (lev1/out1_2_mux0004<7>)
+     LDCPE:D                   0.268          lev1/out1_2_7
+    ----------------------------------------
+    Total                     10.767ns (6.159ns logic, 4.608ns route)
+                                       (57.2% logic, 42.8% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'lev1/out1_2_not0003'
+  Total number of paths / destination ports: 47464 / 32
+-------------------------------------------------------------------------
+Offset:              14.005ns (Levels of Logic = 21)
+  Source:            lev1/out1_5_1 (LATCH)
+  Destination:       out5<7> (PAD)
+  Source Clock:      lev1/out1_2_not0003 falling
+
+  Data Path: lev1/out1_5_1 to out5<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDCPE:G->Q            6   0.588   0.721  lev1/out1_5_1 (lev1/out1_5_1)
+     LUT2:I0->O            1   0.612   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_lut<1> (N5)
+     MUXCY:S->O            1   0.404   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<1> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<2> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<3> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<4> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<5> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<6> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<6>)
+     MUXCY:CI->O          37   0.399   1.226  lev2_2/Mcompar_out2_1_cmp_le0000_cy<7> (lev2_2/out2_1_cmp_le0000)
+     LUT3:I0->O            5   0.612   0.690  lev2_2/out2_1<0>1 (m<0>)
+     LUT2:I0->O            1   0.612   0.000  lev3/Mcompar_flag_cmp_le0000_lut<0> (lev3/N4)
+     MUXCY:S->O            1   0.404   0.000  lev3/Mcompar_flag_cmp_le0000_cy<0> (lev3/Mcompar_flag_cmp_le0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<1> (lev3/Mcompar_flag_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<2> (lev3/Mcompar_flag_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<3> (lev3/Mcompar_flag_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<4> (lev3/Mcompar_flag_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<5> (lev3/Mcompar_flag_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<6> (lev3/Mcompar_flag_cmp_le0000_cy<6>)
+     MUXCY:CI->O          33   0.399   1.225  lev3/Mcompar_flag_cmp_le0000_cy<7> (lev3/flag_cmp_le0000)
+     LUT4:I0->O            8   0.612   0.795  lev3/out3_5<0>11 (lev3/N0)
+     LUT3:I0->O            1   0.612   0.357  lev3/out3_5<7>1 (out5_7_OBUF)
+     OBUF:I->O                 3.169          out5_7_OBUF (out5<7>)
+    ----------------------------------------
+    Total                     14.005ns (8.990ns logic, 5.015ns route)
+                                       (64.2% logic, 35.8% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 3375080 / 40
+-------------------------------------------------------------------------
+Delay:               20.264ns (Levels of Logic = 34)
+  Source:            in3<0> (PAD)
+  Destination:       out5<7> (PAD)
+
+  Data Path: in3<0> to out5<7>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             9   1.106   0.849  in3_0_IBUF (in3_0_IBUF)
+     LUT2:I0->O            1   0.612   0.000  lev1/Mcompar_out1_1_cmp_le0001_lut<0> (lev1/N20)
+     MUXCY:S->O            1   0.404   0.000  lev1/Mcompar_out1_1_cmp_le0001_cy<0> (lev1/Mcompar_out1_1_cmp_le0001_cy<0>)
+     MUXCY:CI->O           1   0.052   0.000  lev1/Mcompar_out1_1_cmp_le0001_cy<1> (lev1/Mcompar_out1_1_cmp_le0001_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  lev1/Mcompar_out1_1_cmp_le0001_cy<2> (lev1/Mcompar_out1_1_cmp_le0001_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  lev1/Mcompar_out1_1_cmp_le0001_cy<3> (lev1/Mcompar_out1_1_cmp_le0001_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  lev1/Mcompar_out1_1_cmp_le0001_cy<4> (lev1/Mcompar_out1_1_cmp_le0001_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  lev1/Mcompar_out1_1_cmp_le0001_cy<5> (lev1/Mcompar_out1_1_cmp_le0001_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  lev1/Mcompar_out1_1_cmp_le0001_cy<6> (lev1/Mcompar_out1_1_cmp_le0001_cy<6>)
+     MUXCY:CI->O           2   0.399   0.532  lev1/Mcompar_out1_1_cmp_le0001_cy<7> (lev1/out1_1_cmp_le0001)
+     LUT2:I0->O           24   0.612   1.216  lev1/out1_1_and00011 (lev1/out1_1_and0001)
+     LUT4:I0->O            1   0.612   0.000  lev1/out1_4<1>_F (N534)
+     MUXF5:I0->O           6   0.278   0.638  lev1/out1_4<1> (d<1>)
+     LUT2:I1->O            1   0.612   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_lut<1> (N5)
+     MUXCY:S->O            1   0.404   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<1> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.052   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<2> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.052   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<3> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.052   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<4> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.052   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<5> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.052   0.000  lev2_2/Mcompar_out2_1_cmp_le0000_cy<6> (lev2_2/Mcompar_out2_1_cmp_le0000_cy<6>)
+     MUXCY:CI->O          37   0.399   1.226  lev2_2/Mcompar_out2_1_cmp_le0000_cy<7> (lev2_2/out2_1_cmp_le0000)
+     LUT3:I0->O            5   0.612   0.690  lev2_2/out2_1<0>1 (m<0>)
+     LUT2:I0->O            1   0.612   0.000  lev3/Mcompar_flag_cmp_le0000_lut<0> (lev3/N4)
+     MUXCY:S->O            1   0.404   0.000  lev3/Mcompar_flag_cmp_le0000_cy<0> (lev3/Mcompar_flag_cmp_le0000_cy<0>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<1> (lev3/Mcompar_flag_cmp_le0000_cy<1>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<2> (lev3/Mcompar_flag_cmp_le0000_cy<2>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<3> (lev3/Mcompar_flag_cmp_le0000_cy<3>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<4> (lev3/Mcompar_flag_cmp_le0000_cy<4>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<5> (lev3/Mcompar_flag_cmp_le0000_cy<5>)
+     MUXCY:CI->O           1   0.051   0.000  lev3/Mcompar_flag_cmp_le0000_cy<6> (lev3/Mcompar_flag_cmp_le0000_cy<6>)
+     MUXCY:CI->O          33   0.399   1.225  lev3/Mcompar_flag_cmp_le0000_cy<7> (lev3/flag_cmp_le0000)
+     LUT4:I0->O            8   0.612   0.795  lev3/out3_5<0>11 (lev3/N0)
+     LUT3:I0->O            1   0.612   0.357  lev3/out3_5<7>1 (out5_7_OBUF)
+     OBUF:I->O                 3.169          out5_7_OBUF (out5<7>)
+    ----------------------------------------
+    Total                     20.264ns (12.735ns logic, 7.529ns route)
+                                       (62.8% logic, 37.2% route)
+
+=========================================================================
+CPU : 3.88 / 3.97 s | Elapsed : 4.00 / 4.00 s
+ 
+--> 
+
+Total memory usage is 206440 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   11 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

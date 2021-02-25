@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick_test_vhdl</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick_test.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick_test.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick_test_vhdl/behavior</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick_test.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick_test.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/sort</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/sort.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/sort/quick</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/sort.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick1/level1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick2/level2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick3/level3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd</arg>&quot;.
+</msg>
+
+</messages>
+

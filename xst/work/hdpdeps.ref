@@ -1,0 +1,37 @@
+V3 19
+FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd 2021/01/05.00:18:27 J.36
+EN work/quick1 1609795583 \
+      FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/quick1/level1 1609795584 \
+      FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd \
+      EN work/quick1 1609795583
+FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd 2021/01/05.00:18:25 J.36
+EN work/quick2 1609795585 \
+      FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/quick2/level2 1609795586 \
+      FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd \
+      EN work/quick2 1609795585
+FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd 2021/01/05.00:18:22 J.36
+EN work/quick3 1609795587 \
+      FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/quick3/level3 1609795588 \
+      FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd \
+      EN work/quick3 1609795587
+FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd 2020/12/20.19:10:27 J.36
+EN work/sort 1609795589 \
+      FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd \
+      PB ieee/std_logic_1164 1177545575 PB ieee/std_logic_arith 1177545576 \
+      PB ieee/STD_LOGIC_UNSIGNED 1177545583
+AR work/sort/quick 1609795590 \
+      FL D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd EN work/sort 1609795589 \
+      CP quick1 CP quick2 CP quick3
+FL D:/QuickSort/quick1.vhd 2020/12/20.17:48:29 J.36
+FL D:/QuickSort/quick2.vhd 2020/12/20.17:48:35 J.36
+FL D:/QuickSort/quick3.vhd 2021/01/04.23:29:55 J.36
+FL D:/QuickSort/sort.vhd 2020/12/20.19:10:27 J.36

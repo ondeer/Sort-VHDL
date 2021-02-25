@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/sort</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/sort.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/sort/quick</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/sort.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/sort.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick1/level1</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick1.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick1.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick2/level2</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick2.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick2.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="HDLParsers" num="3607" delta="unknown" >Unit <arg fmt="%s" index="1">work/quick3/level3</arg> is now defined in a different file.  It was defined in &quot;<arg fmt="%s" index="2">D:/QuickSort/quick3.vhd</arg>&quot;, and is now defined in &quot;<arg fmt="%s" index="3">D:/172113049_Onder_ACIKGOZ_Bitirme_Tezi/Quicksort/quick3.vhd</arg>&quot;.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="unknown" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">out1_2</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="unknown" >Found <arg fmt="%d" index="1">8</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">out1_5</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1336" delta="unknown" > (*) More than 100% of Device resources are used
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="unknown" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+
